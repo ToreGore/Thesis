@@ -1,0 +1,264 @@
+Best starting epochs:
+	1_mae_uniform.png
+	1_mse_uniform.png
+	1_mae_boxplot.png
+	20 Epochs
+	Mediana:	1788.0
+	Media:		1816.376602
+
+Best starting epochs:
+	2_mae_uniform.png
+	2_mse_uniform.png
+	2_mae_boxplot.png
+	50 Epochs
+	Mediana:	2025.0
+	Media:		2032.705234
+
+Best starting epochs:
+	3_mae_uniform.png
+	3_mse_uniform.png
+	3_mae_boxplot.png
+	75 Epochs
+	Mediana:	1746.0
+	Media:		1825.190486
+
+Best starting epochs:
+	4_mae_uniform.png
+	4_mse_uniform.png
+	4_mae_boxplot.png
+	100 Epochs
+	Mediana:	1407.0
+	Media:		1459.361562
+
+
+	Hidden neurons = NEURONS
+The best outcome comes from 100 epochs
+
+Dropout or not?
+
+
+Null Dropout:
+	5_mae_uniform.png
+	5_mse_uniform.png
+	5_mae_boxplot.png
+	100 Epochs
+	Mediana:	385.0
+	Media:		460.242758
+
+0.2 Dropout:
+	6_mae_uniform.png
+	6_mse_uniform.png
+	6_mae_boxplot.png
+	100 Epochs
+	Mediana:	1200.0
+	Media:		1266.886324
+
+0.8 Dropout:
+	7_mae_uniform.png
+	7_mse_uniform.png
+	7_mae_boxplot.png
+	100 Epochs
+	Mediana:	2458.0
+	Media:		2448.79863
+
+
+	Hidden neurons = NEURONS
+Best outcome is Null Dropout.
+
+First Layer Best Empyrical Dimensions
+(All experiments before used Neurons = NEURONS * 1)
+
+
+
+Half Neurons first layer:
+	8_mae_uniform.png
+	8_mse_uniform.png
+	8_mae_boxplot.png
+	Mediana:	328.0
+	Media:		373.870386
+
+Double Neurons first layer:
+	9_mae_uniform.png
+	9_mse_uniform.png
+	9_mae_boxplot.png
+	Mediana:	475.0
+	Media:		999.258056
+
+Triple Neurons first layer:
+	10_mae_uniform.png
+	10_mse_uniform.png
+	10_mae_boxplot.png
+	Mediana:	253.0
+	Media:		290.206668
+
+Quadruple Neurons first layer:
+	11_mae_uniform.png
+	11_mse_uniform.png
+	11_mae_boxplot.png
+	Mediana:	414.0
+	Media:		653.399736
+
+
+	Hidden neurons = NEURONS
+Best outcome from triple neurons first layer. It survives
+
+Second Layer Best Empyrical Dimensions
+
+
+Half Neurons second_h layer:
+	12_mae_uniform.png
+	12_mse_uniform.png
+	12_mae_boxplot.png
+	Mediana:	408.0
+	Media:		491.512522
+
+Standard Neurons second_h layer:
+	13_mae_uniform.png
+	13_mse_uniform.png
+	13_mae_boxplot.png
+	Mediana:	640.0
+	Media:		1438.05981
+
+Double Neurons second_h layer:
+	14_mae_uniform.png
+	14_mse_uniform.png
+	14_mae_boxplot.png
+	Mediana:	352.0
+	Media:		407.417494
+
+Triple Neurons second_h layer:
+	15_mae_uniform.png
+	15_mse_uniform.png
+	15_mae_boxplot.png
+	Mediana:	361.0
+	Media:		420.809012
+
+Quadruple Neurons second_h layer:
+	16_mae_uniform.png
+	16_mse_uniform.png
+	16_mae_boxplot.png
+	Mediana:	511.0
+	Media:		775.329576
+
+
+	Hidden_1 neurons = NEURONS * 3
+Best is Double Neurons. It passes
+
+Sigmoid - Sigmoid vs Sigmoid - Relu vs Custom - Sigmoid vs Custom - Relu
+
+
+Sigmoid + Sigmoid:
+	17_mae_uniform.png
+	17_mse_uniform.png
+	17_mae_boxplot.png
+	Mediana:	570.0
+	Media:		840.839854
+
+Sigmoid + Relu:
+	18_mae_uniform.png
+	18_mse_uniform.png
+	18_mae_boxplot.png
+	Mediana:	568.0
+	Media:		725.478124
+
+Custom + Sigmoid:
+	19_mae_uniform.png
+	19_mse_uniform.png
+	19_mae_boxplot.png
+	Mediana:	403.0
+	Media:		471.336086
+
+Custom + Relu:
+	20_mae_uniform.png
+	20_mse_uniform.png
+	20_mae_boxplot.png
+	Mediana:	715.0
+	Media:		943.697828
+
+
+	Conformation: N3 + N2
+
+
+Again but with ADAM and Custom + Custom
+
+
+Sigmoid + Sigmoid ADAM:
+	21_mae_uniform.png
+	21_mse_uniform.png
+	21_mae_boxplot.png
+	Mediana:	170.0
+	Media:		247.974036
+
+Sigmoid + Relu ADAM:
+	22_mae_uniform.png
+	22_mse_uniform.png
+	22_mae_boxplot.png
+	Mediana:	153.0
+	Media:		244.76958
+
+Custom + Sigmoid ADAM:
+	23_mae_uniform.png
+	23_mse_uniform.png
+	23_mae_boxplot.png
+	Mediana:	120.0
+	Media:		228.082236
+
+Custom + Relu ADAM:
+	24_mae_uniform.png
+	24_mse_uniform.png
+	24_mae_boxplot.png
+	Mediana:	131.0
+	Media:		235.40214
+
+Custom + Custom ADAM:
+	25_mae_uniform.png
+	25_mse_uniform.png
+	25_mae_boxplot.png
+	Mediana:	136.0
+	Media:		245.855954
+
+
+	Conformation: N3 + N2 --- ADAM
+Best is Custom + Sigmoid
+
+Confrontation Between Different Betas for Custom Function
+
+
+Possible Best Beta: 0.05
+	26_mae_uniform.png
+	26_mse_uniform.png
+	26_mae_boxplot.png
+	Mediana:	420.0
+	Media:		610.28992
+
+Possible Best Beta: 0.2
+	27_mae_uniform.png
+	27_mse_uniform.png
+	27_mae_boxplot.png
+	Mediana:	226.0
+	Media:		282.699102
+
+Possible Best Beta: 3
+	28_mae_uniform.png
+	28_mse_uniform.png
+	28_mae_boxplot.png
+	Mediana:	120.0
+	Media:		228.082236
+
+Possible Best Beta: 5
+	29_mae_uniform.png
+	29_mse_uniform.png
+	29_mae_boxplot.png
+	Mediana:	168.0
+	Media:		292.137594
+
+Possible Best Beta: 10
+	30_mae_uniform.png
+	30_mse_uniform.png
+	30_mae_boxplot.png
+	Mediana:	134.0
+	Media:		253.248822
+
+
+	Conformation: N3 + N2 --- ADAM
+

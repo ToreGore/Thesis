@@ -31,19 +31,19 @@ Dropout Experiment:	No dropout
 	5_mae_uniform.png
 	5_mse_uniform.png
 	5_mae_boxplot.png
-	75 epochs
+	100 epochs
 	No dropout is better than dropout 0.2 and 0.8?
-	Mediana:	438.0
-	Media:		612.45
+	Mediana:	385.0
+	Media:		459.59
 
 Dropout Experiment:	Dropout = 0.8
 	6_mae_uniform.png
 	6_mse_uniform.png
 	6_mae_boxplot.png
-	75 epochs
+	100 epochs
 	Dropout prob = 1 - p
-	Mediana:	2437.0
-	Media:		2416.420762
+	Mediana:	2414.0
+	Media:		2422.314642
 
 FIRST LAYER EMPIRICAL OPTIMAL CHOICE
 
@@ -51,7 +51,7 @@ Neuron Numbers Experiments:	Neurons = neur / 2
 	7_mae_uniform.png
 	7_mse_uniform.png
 	7_mae_boxplot.png
-	75 epochs
+	100 epochs
 Values for neurons = neurons * 2 are in dropout null experiment. Look at that for comparison
 	Mediana:	451.0
 	Media:		502.381224
@@ -61,7 +61,7 @@ Neuron Numbers Experiments:	Neurons = neur
 	8_mae_uniform.png
 	8_mse_uniform.png
 	8_mae_boxplot.png
-	75 epochs
+	100 epochs
 	Values for neurons = neurons * 2 are in dropout null experiment. Look at that for comparison
 	Mediana:	401.0
 	Media:		469.072826
@@ -70,7 +70,7 @@ Neuron Numbers Experiments:	Neurons = neur * 3
 	9_mae_uniform.png
 	9_mse_uniform.png
 	9_mae_boxplot.png
-	75 epochs
+	100 epochs
 	Values for neurons = neurons * 2 are in dropout null experiment. Look at that for comparison
 	Mediana:	427.0
 	Media:		737.479534
