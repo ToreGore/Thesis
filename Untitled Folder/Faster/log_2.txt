@@ -262,3 +262,33 @@ Possible Best Beta: 10
 
 	Conformation: N3 + N2 --- ADAM
 
+Huge Number Of Epochs
+
+1000 Epochs:
+	31_mae_uniform.png
+	31_mse_uniform.png
+	31_mae_boxplot.png
+	Mediana:	85.0
+	Media:		175.067614
+
+5000 Epochs
+	32_mae_uniform.png
+	32_mse_uniform.png
+	32_mae_boxplot.png
+	Mediana:	17.0
+	Media:		40.241562
+
+10000 Epochs
+	33_mae_uniform.png
+	33_mse_uniform.png
+	33_mae_boxplot.png
+	Mediana:	21.0
+	Media:		34.523622
+
+25000 Epochs
+	34_mae_uniform.png
+	34_mse_uniform.png
+	34_mae_boxplot.png
+	Mediana:	13.0
+	Media:		18.17297
+
